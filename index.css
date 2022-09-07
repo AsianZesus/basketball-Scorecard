@@ -1,6 +1,16 @@
 body {
-    margin: 0;
+    /* margin: 0; */
+    display: flex;
+    justify-content: space-around;
     text-align: center;
+}
+
+.container {
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    display: flex;
+    justify-content: space-around;
 }
 
 #home_score {
@@ -9,11 +19,9 @@ body {
     color: #F94F6D;
     width: 120px;
     margin: 20px;
-}
-
-.container {
-    display: flex;
-    justify-content: space-around;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
 }
 
 button {
@@ -26,4 +34,51 @@ button {
     color: #F94F6D;
     width: 120px;
     margin: 20px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.titles {
+    color: #EEEEEEEE;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+}
+
+.icmt_btn {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #EEEEEEEE;
+    box-sizing: border-box;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#reset_btn_hm {
+    color: #EEEEEEEE;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#reset_btn_gt {
+    color: #EEEEEEEE;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-top: 10px;
 }
