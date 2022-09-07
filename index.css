@@ -3,7 +3,7 @@ body {
     text-align: center;
 }
 
-.score {
+#home_score {
     background: #0a0001;
     font-size: 90px;
     color: #F94F6D;
@@ -18,4 +18,12 @@ body {
 
 button {
     background: none;
+}
+
+#guest_score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
 }

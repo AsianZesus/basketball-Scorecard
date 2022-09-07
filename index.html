@@ -6,15 +6,21 @@
         <div class="container">
             <div class="column">
                 <h3>HOME</h3>
-                <h2 class="home_score">0</h2>
+                <h2 id="home_score">0</h2>
                 <div>
-                    <button id="plus_1_btn" onclick="increment_1()">+1</button>
-                    <button id="plus_2_btn" onclick="increment_2()">+2</button>
-                    <button id="plus_3_btn" onclick="increment_3()">+3</button>
+                    <button id="plus_1_btn_hm" onclick="icmt_1_hm()">+1</button>
+                    <button id="plus_2_btn_hm" onclick="icmt_2_hm()">+2</button>
+                    <button id="plus_3_btn_hm" onclick="icmt_3_hm()">+3</button>
                 </div>
             </div>
             <div class="column">
                 <h3>GUEST</h3>
+                <h2 id="guest_score">0</h2>
+                <div>
+                    <button id="plus_1_btn_gt" onclick="icmt_1_gt()">+1</button>
+                    <button id="plus_2_btn_gt" onclick="icmt_2_gt()">+2</button>
+                    <button id="plus_3_btn_gt" onclick="icmt_3_gt()">+3</button>
+                </div>
             </div>
         </div>
         <script src="index.js"></script>

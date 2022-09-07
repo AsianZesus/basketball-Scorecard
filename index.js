@@ -1,24 +1,37 @@
-let home_scoreEL = document.getElementsByClassName("home_score")
+let home_scoreEL = document.getElementById("home_score")
+let guest_scoreEL = document.getElementById("guest_score")
 
 console.log(home_scoreEL)
 
-let count = 0
+let home_count = 0
+let guest_count = 0
 
-function increment_1() {
-    count += 1
-    home_scoreEL.textContent = count
-    console.log(count)
-
+function icmt_1_hm() {
+    home_count += 1
+    home_scoreEL.textContent = home_count
 }
 
-function increment_2() {
-    count += 2
-    home_scoreEL.textContent = count
-    console.log(count)
+function icmt_2_hm() {
+    home_count += 2
+    home_scoreEL.textContent = home_count
 }
 
-function increment_3() {
-    count += 3
+function icmt_3_hm() {
+    home_count += 3
+    home_scoreEL.textContent = home_count
+}
 
-    console.log(count)
+function icmt_1_gt() {
+    guest_count += 1
+    guest_scoreEL.textContent = guest_count
+}
+
+function icmt_2_gt() {
+    guest_count += 2
+    guest_scoreEL.textContent = guest_count
+}
+
+function icmt_3_gt() {
+    guest_count += 3
+    guest_scoreEL.textContent = guest_count
 }
