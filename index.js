@@ -1,14 +1,13 @@
 let home_scoreEL = document.getElementById("home_score")
 let guest_scoreEL = document.getElementById("guest_score")
 
-console.log(home_scoreEL)
-
+// Assigning data to the variables
 let home_count = 0
 let guest_count = 0
 
 function icmt_1_hm() {
-    home_count += 1
-    home_scoreEL.textContent = home_count
+    home_count += 1 // Incrementing the counter
+    home_scoreEL.textContent = home_count // Setting the text to the incremented count
 }
 
 function icmt_2_hm() {
@@ -37,7 +36,7 @@ function icmt_3_gt() {
 }
 
 function reset_btn_hm() {
-    home_scoreEL.textContent = 0
+    home_scoreEL.textContent = 0 // Setting the text to the assigned data
     home_count = 0
 }
 
