@@ -35,3 +35,13 @@ function icmt_3_gt() {
     guest_count += 3
     guest_scoreEL.textContent = guest_count
 }
+
+function reset_btn_hm() {
+    home_scoreEL.textContent = 0
+    home_count = 0
+}
+
+function reset_btn_gt() {
+    guest_scoreEL.textContent = 0
+    guest_count = 0
+}
