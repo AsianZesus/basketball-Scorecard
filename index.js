@@ -35,12 +35,8 @@ function icmt_3_gt() {
     guest_scoreEL.textContent = guest_count
 }
 
-function reset_btn_hm() {
-    home_scoreEL.textContent = 0 // Setting the text to the assigned data
-    home_count = 0
-}
-
-function reset_btn_gt() {
+function new_game() {
+    home_scoreEL.textContent = 0
     guest_scoreEL.textContent = 0
     guest_count = 0
 }

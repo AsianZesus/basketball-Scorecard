@@ -59,19 +59,7 @@ button {
     border-radius: 5px;
 }
 
-#reset_btn_hm {
-    color: #EEEEEEEE;
-    font-family: 'Cursed Timer ULiL';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    box-sizing: border-box;
-    border: 2px solid #9AABD8;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-#reset_btn_gt {
+#new_gme {
     color: #EEEEEEEE;
     font-family: 'Cursed Timer ULiL';
     font-style: normal;
