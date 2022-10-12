@@ -38,5 +38,6 @@ function icmt_3_gt() {
 function new_game() {
     home_scoreEL.textContent = 0
     guest_scoreEL.textContent = 0
+    home_count = 0
     guest_count = 0
 }
